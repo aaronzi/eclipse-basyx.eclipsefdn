@@ -59,6 +59,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-applications') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -227,17 +228,8 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
         default_workflow_permissions: "write",
       },
     },
-    orgs.newRepo('basyx-cpp-components') {
-      allow_merge_commit: true,
-      allow_update_branch: false,
-      delete_branch_on_merge: false,
-      description: "cpp-components",
-      web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
-    },
     orgs.newRepo('basyx-cpp-sdk') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -262,6 +254,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-demonstrators') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -280,6 +273,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-applications') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -290,6 +284,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-components') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -300,6 +295,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-examples') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -310,6 +306,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-dotnet-sdk') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -425,6 +422,7 @@ orgs.newOrg('dt.basyx', 'eclipse-basyx') {
       },
     },
     orgs.newRepo('basyx-pdf-to-aas') {
+      archived: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
